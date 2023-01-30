@@ -1,0 +1,65 @@
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-error-msg {
+    width: 43%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+
+#error-msg-second-line {
+    display: block;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15%;
+    background-color: rgb(69, 88, 92);
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 400px;
+    /* margin: 20%; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px #000000;
+    background-color: rgb(196, 193, 48);
+}
+
+#login-container form {
+    margin: 20%;
+}
+
+#login-container input {
+    margin: 20px;
+    height: 15px;
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    text-indent: 2%;
+}
+
+#login-container button {
+    width: 100px;
+    margin: 10% 10% 10% 26%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}

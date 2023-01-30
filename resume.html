@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+
+<body>
+    <header>
+        <div id="searchBox">
+            <div id="previousButton">
+                <button id="previous" type="submit">Previous</button>
+            </div>
+            <div id="searchTextBox">
+                <input type="search" placeholder="Search for keywords to filter result..." required>
+            </div>
+            <div id="nextButton">
+                <button id="next" type="submit">Next</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="candidateDetails">
+            <div id="headerBox">
+                <div id="candidate">
+                    <h2>Name</h2>
+                    <p>Applied For: </p>
+                </div>
+                <div id="image">
+                    <img src="./images/userProfileIcon.png">
+                </div>
+            </div>
+            <section id="detailsBox">
+                <div id="detailsSection">
+                    <div id="personalDetailsBox">
+                        <h3>Personal Information</h3>
+                        <p></p>
+                        <h3>Technical Skills</h3>
+                        <p id="skill"></p>
+                        <h3>Hobbies</h3>
+                        <p id="hobby"></p>
+                    </div>
+                </div>
+                <div id="workBox">
+                    <div id="workDetailsBox">
+                        <h3>Previous Work Experience</h3>
+                        <p id="previousWork"></p>
+                        <h3>Projects</h3>
+                        <p id="project"></p>
+                        <h3>Education</h3>
+                        <p id="education"></p>
+                        <h3>Internship</h3>
+                        <p id="internship"></p>
+                        <h3>Achievements</h3>
+                        <p id="achievements"></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="module" src="resume.js"></script>
+</body>
+
+</html>

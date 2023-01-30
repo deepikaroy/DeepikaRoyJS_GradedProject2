@@ -1,0 +1,145 @@
+body {
+    display: flexbox;
+    margin: 20px;
+}
+
+#searchBox {
+    display: flex;
+    flex-direction: row;
+    columns: 3;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#previousButton #previous {
+    align-items: flex-start;
+    width: max-content;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 450;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nextButton #next {
+    align-items: flex-end;
+    width: max-content;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 450;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#searchTextBox input {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: 300;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#candidateDetails {
+    margin: 1% 10% 0% 10%;
+    border: 2px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    box-shadow: -4px 0px 24px 7px rgba(0, 0, 0, 0.75);
+}
+
+#headerBox {
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+    background-color: aquamarine;
+}
+
+#headerBox #candidate {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#headerBox #candidate p {
+    margin-bottom: 1%;
+}
+
+#headerBox #image {
+    margin: 0%;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+#headerBox img {
+    height: 110px;
+    width: 110px
+}
+
+#detailsBox {
+    display: flex;
+    flex-direction: row;
+}
+
+#detailsSection {
+    display: flex;
+    /* flex-basis: 20%; */
+    /* border: 2px solid red; */
+}
+
+#personalDetailsBox {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: auto; */
+    column-count: 1;
+    background-color: rgb(218, 146, 64);
+    width: max-content;
+    height: max-content;
+    margin: 30px;
+    padding: 10px;
+}
+
+#personalDetailsBox h3 {
+    background-color: gray;
+}
+
+#personalDetailsBox p {
+    margin: 0%;
+    text-align: right;
+}
+
+#workBox {
+    margin-left: 5px;
+    align-items: stretch;
+    /* border: 2px solid gray; */
+}
+
+#workDetailsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 20px;
+    padding: 10px;
+}
+
+#workDetailsBox p {
+    margin-top: 0%;
+    padding-left: 10px;
+}
+
+#education p,
+#internship p,
+#achievements p {
+    display: list-item;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-bottom: 0%;
+}
